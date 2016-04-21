@@ -2,6 +2,7 @@ package iut.tdd;
 
 public class RomanNumerals {
 	public String convertToRoman(String arabe) {
+
 		int nombre= Integer.valueOf(arabe);
 		String chaine="";
 		
@@ -10,7 +11,7 @@ public class RomanNumerals {
 			for(int i=nombre%10;i>0;i--){
 				chaine=chaine+"X";
 			}
-			nombre=nombre/
+			
 			}
 		if(nombre%10==9){
 			chaine=chaine+"IX";
@@ -28,6 +29,7 @@ public class RomanNumerals {
 		}}
 		
 		return chaine;
+
 	}
 
 	public Object convertFromRoman(String roman) {

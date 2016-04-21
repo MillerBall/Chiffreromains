@@ -16,6 +16,7 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
+<<<<<<< HEAD
 	@Test
 	public void should_return_III_when_3 () {
 		//Given
@@ -83,5 +84,7 @@ public class RomanNumeralsTest {
 		Assert.assertEquals(expected, actual);
 	}
 	
+=======
+>>>>>>> 966867bb9e77cfae9b67575c46cc926017a13d61
 	
 }
