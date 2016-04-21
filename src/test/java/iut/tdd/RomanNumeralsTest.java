@@ -49,6 +49,39 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
+	@Test
+	public void should_return_VII_when_7 () {
+		//Given
+		String input = "7";
+		String expected = "VII";
+		RomanNumerals romanNumeral = new RomanNumerals();
+		//When
+		String actual = romanNumeral.convertToRoman(input);
+		//Then
+		Assert.assertEquals(expected, actual);
+	}
+	@Test
+	public void should_return_IX_when_9 () {
+		//Given
+		String input = "9";
+		String expected = "IX";
+		RomanNumerals romanNumeral = new RomanNumerals();
+		//When
+		String actual = romanNumeral.convertToRoman(input);
+		//Then
+		Assert.assertEquals(expected, actual);
+	}
+	@Test
+	public void should_return_X_when_10 () {
+		//Given
+		String input = "10";
+		String expected = "X";
+		RomanNumerals romanNumeral = new RomanNumerals();
+		//When
+		String actual = romanNumeral.convertToRoman(input);
+		//Then
+		Assert.assertEquals(expected, actual);
+	}
 	
 	
 }
